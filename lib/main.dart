@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterconcepts/widgets/rowsandcols.dart';
-
+import 'package:flutterconcepts/widgets/button.dart';
 import 'widgets/container_sized.dart';
 
 void main() => runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.blue,
       ),
-      home: RowsCols(),
+      home: Buttons(),
     );
   }
 }
