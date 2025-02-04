@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.blue,
       ),
-      home: Buttons(),
+      home: Mybuttons(),
     );
   }
 }
