@@ -21,6 +21,7 @@ class _MytestDrawerState extends State<MytestDrawer> {
                 child: Container(
                     color: Colors.blue,
                     child: Row(
+<<<<<<< HEAD
                       children: [
                         CircleAvatar(
                           backgroundImage: NetworkImage(
@@ -31,6 +32,25 @@ class _MytestDrawerState extends State<MytestDrawer> {
                         )
                       ],
                     )),
+=======
+
+                      children: [
+
+                      CircleAvatar(
+
+                        backgroundImage: NetworkImage('https://imgs.search.brave.com/Y0xtclvDqZ7ZHivkXSgjSl_lPT_ACEUeRE4r-RrbIws/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzIyLzg4LzQ2/LzM2MF9GXzgyMjg4/NDY1N180Q2taNmYy/VmFhbUd3Z2xhWnhG/OWJYWG5vR1A4NVQ5/Ry5qcGc'),
+                      ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text("Abdul"),
+                          Text(" 9 jan 2025")
+                        ],
+                      )
+
+                    ],)
+                ),
+>>>>>>> 880423ff2f7efa1df2df83779c1b00a4ef6cc925
               ),
               ListTile(
                 leading: Icon(Icons.message),
