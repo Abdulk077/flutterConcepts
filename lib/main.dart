@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterconcepts/widgets/ListGridviews.dart';
 import 'package:flutterconcepts/widgets/alert.dart';
+import 'package:flutterconcepts/widgets/animatedtext.dart';
 import 'package:flutterconcepts/widgets/drawer.dart';
 import 'package:flutterconcepts/widgets/imagetest.dart';
 import 'package:flutterconcepts/widgets/rowsandcols.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.blue,
       ),
-      home: alertdialogtest(),
+      home: AnimatedTextWidgetTest(),
     );
   }
 }
