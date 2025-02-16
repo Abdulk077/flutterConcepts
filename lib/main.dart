@@ -11,7 +11,8 @@ import 'package:flutter/material.dart';
 
 
 
-import 'package:flutterconcepts/widgets/form.dart';
+
+import 'package:flutterconcepts/pages/home.dart';
 
 
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.blue,
       ),
-      home: FormWidget(),
+      home: Home(),
     );
   }
 }
