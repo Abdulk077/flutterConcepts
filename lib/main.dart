@@ -13,6 +13,7 @@ import 'package:flutter/material.dart';
 
 
 import 'package:flutterconcepts/pages/home.dart';
+import 'package:flutterconcepts/widgets/tabbar.dart';
 
 
 
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.blue,
       ),
-      home: Home(),
+      home: TabBarWidget(),
     );
   }
 }
