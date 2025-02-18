@@ -12,8 +12,11 @@ import 'package:flutter/material.dart';
 
 
 
-import 'package:flutterconcepts/pages/home.dart';
-import 'package:flutterconcepts/widgets/tabbar.dart';
+
+
+
+import 'package:flutterconcepts/widgets/imagepicker.dart';
+
 
 
 
@@ -30,7 +33,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Colors.blue,
       ),
-      home: TabBarWidget(),
+      home: ImagePickerWidgettest(),
     );
   }
 }
