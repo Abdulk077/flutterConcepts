@@ -2,7 +2,15 @@
     <application
         android:label="flutterconcepts"
         android:name="${applicationName}"
+<<<<<<< HEAD
         android:icon="@mipmap/launcher_icon">
+=======
+        android:icon="@mipmap/ic_launcher">
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+        <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+
+>>>>>>> e01daf1cb647571e2c95ee90b1810fab4b6f2a46
         <activity
             android:name=".MainActivity"
             android:exported="true"
